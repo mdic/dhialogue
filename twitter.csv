@@ -39,7 +39,7 @@ renderedContent	Content (from attribute content) of the tweet as it appears on t
 replyCount	Numbers of replies the tweet has received at the time of scraping
 retweetCount	The number of times the tweet has been retweeted at the time of scraping
 retweetedTweet.*	Array of JSON objects containing details about the retweeted tweet and its creator, formatted according to the same structure as the JSON object for the original tweet
-source	"Link in HTML syntax of the application used by the user to post the tweet; for the official Twitter mobile interface this appears as <a href=\""https://mobile.twitter.com\"" rel=\""nofollow\"">Twitter Web App</a>"
+source	Link in HTML syntax of the application used by the user to post the tweet; for the official Twitter mobile interface this appears as <a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>
 sourceLabel	Plain text name of the application used by the user to post the tweet
 sourceUrl	Direct link to the used-application website
 tcooutlinks.*	A list of strings, each one representing one of the links included in the tweet’s contents shortened using the t.co service
