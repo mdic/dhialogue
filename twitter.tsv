@@ -1,5 +1,4 @@
 Attribute name	Description
-_type	Internal value added by snscrape, whose value describes the snscrape module used to collect the data (in the case of the twitter-search module, the value is snscrape.modules.twitter.Tweet)
 cashtags.*	An array containing the string version of the cashtags included in the tweet, without the $ character
 content	Content of the tweet with URLs transformed through the Twitter link shortener t.co (see attribute renderedContent)
 conversationId	The unique ID of the conversation
